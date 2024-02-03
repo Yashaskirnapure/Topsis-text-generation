@@ -26,38 +26,36 @@ Measures the overlap of n-grams and word sequences between generated text and re
 
 ### Dataset desciption -
 
-![dataset](./public/dataset.PNG)
+![dataset](public/dataset.PNG)
 
 ## On testing the models on the above dataset, following estimates for the parameters were obtained-
 
-| Models | Perplexity | BLEU | ROGUE |
-|----------|----------|----------|----------|
-| GPT2 | 18263.198 | 8.78776e-233 | 1.0 |
-| distilGPT2 | 9102.0738 | 8.78776e-233 | 1.0 |
-| GPT2-medium | 19878.612 | 8.78776e-233 | 1.0 |
-| GPT2-large | 26192.336 | 8.78776e-233 | 1.0 |
-
+| Models      | Perplexity | BLEU         | ROGUE |
+| ----------- | ---------- | ------------ | ----- |
+| GPT2        | 18263.198  | 8.78776e-233 | 1.0   |
+| distilGPT2  | 9102.0738  | 8.78776e-233 | 1.0   |
+| GPT2-medium | 19878.612  | 8.78776e-233 | 1.0   |
+| GPT2-large  | 26192.336  | 8.78776e-233 | 1.0   |
 
 ### Perplexity:-
 
-![perplexity](./public/perplexity.png)
+![perplexity](public/perplexity.PNG)
 
 ### ROUGE score:-
 
-![rouge](./public/rouge.png)
+![rouge](./public/rouge.PNG)
 
 ### BLEU score:-
 
-![bleu](./public/bleu.png)
+![bleu](./public/bleu.PNG)
 
 ## Topsis analysis of the models yielded the following results -
 
-| Models | Perplexity | BLEU | ROUGE | Topsis Score | Rank |
-|----------|----------|----------|----------|----------| -----|
-| GPT2 | 0.471933 | inf | 0.5 | 0.463956 | 2 |
-| distilGPT2 | 0.235204 | inf | 0.5 | 1.000000 | 1 |
-| GPT2-medium | 0.513676 | inf | 0.5 | 0.369434 | 3 |
-| GPT2-large | 0.676827 | inf | 0.5 | 0.000000 | 4 |
-
+| Models      | Perplexity | BLEU | ROUGE | Topsis Score | Rank |
+| ----------- | ---------- | ---- | ----- | ------------ | ---- |
+| GPT2        | 0.471933   | inf  | 0.5   | 0.463956     | 2    |
+| distilGPT2  | 0.235204   | inf  | 0.5   | 1.000000     | 1    |
+| GPT2-medium | 0.513676   | inf  | 0.5   | 0.369434     | 3    |
+| GPT2-large  | 0.676827   | inf  | 0.5   | 0.000000     | 4    |
 
 From the model rankings obtained from the above analysis, it is clear that 'distilgpt2' is the best performing model out of the 4 models considered.
