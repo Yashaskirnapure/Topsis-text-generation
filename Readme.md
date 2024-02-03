@@ -6,11 +6,11 @@
 
 A measure of how well a language model predicts a sample of text. Lower perplexity indicates better performance.
 
-#### 2. ROUGE score:
+#### 2. BLEU score:
 
 Evaluates the quality of generated text by comparing it to one or more reference texts. Higher BLEU scores indicate better performance.
 
-#### 3. BLEU score:
+#### 3. ROGUE score:
 
 Measures the overlap of n-grams and word sequences between generated text and reference text, commonly used in summarization tasks.
 
